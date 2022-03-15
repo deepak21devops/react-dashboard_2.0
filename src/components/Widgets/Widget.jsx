@@ -16,7 +16,12 @@ const Widget = ({ type }) => {
         isMoney: false,
         percentage: "20%",
         subtitle: "See all Users",
-        icon: <ShoppingCartOutlinedIcon className="icon" />,
+        icon: (
+          <ShoppingCartOutlinedIcon
+            className="icon"
+            style={{ backgroundColor: "#E0777D", color: "#8E3B46" }}
+          />
+        ),
       };
       break;
 
@@ -26,7 +31,12 @@ const Widget = ({ type }) => {
         isMoney: false,
         percentage: "20%",
         subtitle: "View all orders",
-        icon: <PaidOutlinedIcon className="icon" />,
+        icon: (
+          <PaidOutlinedIcon
+            className="icon"
+            style={{ backgroundColor: "#73E2A7", color: "#1C7C54" }}
+          />
+        ),
       };
       break;
 
@@ -36,7 +46,12 @@ const Widget = ({ type }) => {
         isMoney: true,
         percentage: "20%",
         subtitle: "View net Earnings",
-        icon: <AccountBalanceWalletOutlinedIcon className="icon" />,
+        icon: (
+          <AccountBalanceWalletOutlinedIcon
+            className="icon"
+            style={{ backgroundColor: "#91C4F2", color: "#8CA0D7" }}
+          />
+        ),
       };
       break;
 
@@ -46,7 +61,12 @@ const Widget = ({ type }) => {
         isMoney: true,
         percentage: "20%",
         subtitle: "See details",
-        icon: <PermIdentityOutlinedIcon className="icon" />,
+        icon: (
+          <PermIdentityOutlinedIcon
+            className="icon"
+            style={{ backgroundColor: "#EA3788", color: "#361134" }}
+          />
+        ),
       };
       break;
 

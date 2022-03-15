@@ -3,6 +3,12 @@
 
   .mainContainer {
     flex: 5;
+
+    .widgetContainer {
+      padding: 10px;
+      display: flex;
+      gap: 20px;
+    }
     // background-color: blue;
   }
 }

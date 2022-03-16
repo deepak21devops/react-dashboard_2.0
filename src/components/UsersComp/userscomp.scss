@@ -1,0 +1,29 @@
+.userscomp {
+  flex: 6;
+  padding: 10px;
+}
+
+.actionContent {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+
+  .viewButton,
+  .DelButton {
+    padding: 2px 5px;
+    border: 1px dotted purple;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .viewButton {
+    border: 1px dotted purple;
+    color: purple;
+    font-weight: bold;
+  }
+  .DelButton {
+    border: 1px dotted red;
+    color: red;
+  }
+}
